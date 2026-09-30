@@ -175,7 +175,7 @@ onPlayerSpawned()
 
 
 
-test_perks()
+self thread test_perks()
 {
 	self endon("death");
 	self endon("disconnected");
