@@ -169,7 +169,7 @@ onPlayerSpawned()
 		self thread removeperkshader();
 		self thread perkboughtcheck();
 		self thread damagehitmarker();
-		//self thread test_perks();
+		self thread test_perks();
 	}
 }
 
